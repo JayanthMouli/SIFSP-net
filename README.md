@@ -1,7 +1,7 @@
 # SIFSP-net
 Satellite Imagery Fire Shape Prediction Network (SISFPNET) is a machine learning approach to 
 predicting wildfire shape based on satellite imagery. Data are from NASA's Landsat 8 mission, 
-which collected satellite imagery of the Earth throughout 2018. Specifically, SIFSPNET uses
+which collected satellite imagery of the Earth throughout 2018. Specifically, SISFPNET uses
 Landsat OLI/TIRS data for geospatial and thermal imagery, and treats each image as a 2 dimensional matrix of pixels. The network assigns characteristics
 to each pixel in the satellite image; these variables include temperature (derived from TIR sensors), 
 elevation (derived from Aster DEM data), slope, aspect, NDVI (Normalized Difference Vegetation Index) and wind difference*. 
